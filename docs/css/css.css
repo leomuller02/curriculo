@@ -1,0 +1,49 @@
+h1{
+  background-color: #E6E6FA;
+  text-align: center;
+  font-style: italic;
+}
+
+h2{
+  background-color: #E6E6FA;
+  width: 250px
+}
+
+li{
+font-style: oblique;
+}
+
+#pi{
+  font-weight: bolder;
+}
+
+
+.rodapé{
+  background-color: #E6E6FA
+}
+
+.rodapé{
+   font-weight: bold;
+}
+.rodapé{
+  text-align: center;
+}
+.rodapé{
+  border-radius: 30px;
+  width: 100%;
+  max-width: 120rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.escuro{
+  position: absolute;
+	left: 90%;
+	top: 10%
+}
+.claro{
+  position: absolute;
+  left: 80%;
+  top: 10%;
+}

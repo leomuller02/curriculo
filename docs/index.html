@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/css.css">
+    <title>CURRÍCULO</title>
+  </head>
+  <body Id="dema">
+   <h1 >Currículo Leonardo</h1>
+   <h2 >- Dados pessoais</h2>
+   <p><li>Nome: Leonardo da Silva Muller.</li></p>
+   <p><li>Nascimento: 2 de agosto de 2002.</li></p>
+   <p><li>Email: leodocoxa@gmail.com</li></p>
+
+   <h2>- Objetivo profissional</h2>
+   <p><li>Estágio na área de computação, procurando evoluir em diversas línguas da programação.</li></p>
+
+   <h2 > - Formação Acadêmica </h2>
+   <p id=pi>Universidade Positivo - Bacharelado Ciência da Computação.</p>
+   <p><li>Turno - Manhã.</li></p>
+   <p><li>Terceiro período.</li></p>
+   <p><li>Ingressão em 2020 (Conclusão em 2023).</li></p>
+   <p><li>Ensino médio completo no Colégio Dom bosco.</li></p>
+
+   <h2>- Idiomas</h2>
+   <p><li>Inglês Avançado.</li></p>
+
+   <h2 >- Atividades complementares</h2>
+   <p><li>Curso Introdução Java.</li></p>
+   <p><li>Curso C e C++.</li></p>
+
+
+   <div class="rodapé">
+
+
+   <p>Voce gostou deste Currículo?</p>
+   Sim
+   <input type="radio" name="gostou" value="S"  >
+   Não
+   <input type="radio" name="gostou" value="N" >
+
+   <p>Para qual estágio gostaria de me proporcionar uma vaga?</p>
+   Linguagem Java
+   <input type="checkbox" name="" value="1">
+   Linguagem C
+   <input type="checkbox" name="" value="2">
+   Html
+   <input type="checkbox" name="" value="3">
+
+   <p>Em qual cidade seria o estágio? E insira seu contato:</p>
+   <select class="" name="">
+     <option value="Cu">Curitiba</option>
+     <option value="Ma">Maringá</option>
+     <option value="Pg">Ponta grossa</option>
+     <option value="Pa">Paranaguá</option>
+
+     <form class="" action="index.html" method="post">
+       <input
+       type="number"
+       maxlength="11"
+       pattern="[0-9]{11}"
+       name="Contato"
+       placeholder="Contato"
+       required>
+      <input type="email" placeholder="E-mail" pattern="[a-z0-9. %+-]+@[a-z0-9.-]+.[a-z]{2,}$">
+      <button class="botao" type="submit" name="Enviar">Enviar</button>
+
+
+
+</div>
+
+<div class="escuro">
+
+
+<button type="button" onclick="myFunction()">Modo escuro</button>
+<script>
+function myFunction() {
+  document.getElementById("dema").style.backgroundColor = "grey";
+
+
+}
+</script>
+</div>
+
+
+  </body>
+</html>
